@@ -1,0 +1,8 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'tifinagh_keyboard/css/keyboard.css' %}">
+<script src="{% static 'tifinagh_keyboard/js/keyboard.js' %}"></script>
+
+<div class="tifinagh-keyboard">
+  <input type="text" name="{{ widget.name }}" class="tifinagh-input" autocomplete="off" spellcheck="false" />
+  <div class="tifinagh-virtual-keys"></div>
+</div>

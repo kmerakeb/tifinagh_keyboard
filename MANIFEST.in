@@ -1,0 +1,3 @@
+include VERSION
+recursive-include tifinagh_keyboard/static *
+recursive-include tifinagh_keyboard/templates *
