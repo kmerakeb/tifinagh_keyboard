@@ -12,6 +12,34 @@
   position: relative; /* for z-index */
   z-index: 1;
 }
+.key-switch {
+  min-width: 100px;
+  margin-left: 8px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #388E3C;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.key-switch:hover {
+  background-color: #388E3C;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+#keyboard-toggle {
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#keyboard-toggle:hover {
+  background-color: #388E3C;
+}
 
 .key-delete {
   flex: 3; /* Makes it take the space of 3 regular keys */

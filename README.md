@@ -56,3 +56,8 @@ python setup.py sdist
 
 python setup.py sdist
 pip install --force-reinstall dist/tifinagh_keyboard-<version>.tar.gz
+
+
+### direct install
+
+pip install dist/tifinagh_keyboard-0.1.0.tar.gz
